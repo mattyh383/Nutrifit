@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    color: white;
+    
+    /* Background styles */
+    background-image: url(/Users/matt/Documents/Programming/Nutrifit/Images/image2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.hero h3 {
+    font-size: 3em;
+}
+
+.breaker {
+    margin: 100px;
+}
+
+.welcome, .we {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(246,246,246);
+}
+
+.welcome h3 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+#about h2{
+    margin-top: 20px;
+}
+
+div.col > h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about-intro {
+    padding-bottom: 20px;
+}
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.decorated{
+    overflow: hidden;
+    text-align: center;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid;
+   width: 592px; /* half of limiter */
+   margin: 0 20px;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
