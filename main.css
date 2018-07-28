@@ -18,7 +18,7 @@ body {
     color: white;
     
     /* Background styles */
-    background-image: url(/Users/matt/Documents/Programming/Nutrifit/Images/image2.jpg);
+    background-image: url(./Images/image2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -89,3 +89,4 @@ div.col > h2 {
 .decorated > span:after{
    left: 100%;
 }
+
