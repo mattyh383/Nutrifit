@@ -70,6 +70,8 @@ div.col > h2 {
 .decorated{
     overflow: hidden;
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .decorated > span{
    position: relative;
