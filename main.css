@@ -90,3 +90,8 @@ div.col > h2 {
    left: 100%;
 }
 
+.recipe {
+    background-color: rgb(246,246,246);
+    padding: 50px;
+}
+
