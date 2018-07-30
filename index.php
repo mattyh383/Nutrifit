@@ -189,7 +189,7 @@
                 </a>
             </div>
         </section> -->
-
+    
         <!-- Cytoplan Advert -->
         <section class="cytoplan">
             <div class="d-flex justify-content-center">
@@ -250,11 +250,11 @@
                 </h1>
             </div>
             <div class="container">
-                <form class="form-horizontal" role="form" method="POST" action="frmFeedback.php">
+                <form class="form-horizontal" role="form" method="POST" action="frmContact.php">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Name:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name">
+                            <input type="text" class="form-control" name="name">
                         </div>
                     </div>
                     <div class="form-group">
