@@ -189,7 +189,7 @@
                 </a>
             </div>
         </section> -->
-    
+
         <!-- Cytoplan Advert -->
         <section class="cytoplan">
             <div class="d-flex justify-content-center">
@@ -250,31 +250,27 @@
                 </h1>
             </div>
             <div class="container">
-                <form class="form-horizontal" role="form" method="POST" action="frmContact.php">
-                    <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Name:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" name="name">
+                <form role="form" method="POST" action="frmContact.php">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="First name" name="fName">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Last name" name="lName">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">Email address:</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" name="email">
-                        </div>
+                        <label for="commentArea">Comment: </label>
+                        <textarea class="form-control" id="commentArea" name='comment' rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="comment" class="col-sm-2 control-label">Comment:</label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" rows="5" name="comment"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                        </div>
+                    <button type="submit" class="btn btn-primary" name='submit'>Submit</button>
+                    </div>       
                 </form>
-                </div>
+            </div>
         </section>
 
     </body>

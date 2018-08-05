@@ -2,7 +2,8 @@
 
 
     if (isset($_POST['submit'])) {
-        $name = $_POST['name'];
+        $fname = $_POST['fName'];
+        $lname = $_POST['lName'];
         $mailFrom = $_POST['email'];
         $message = $_POST['comment'];
         $subject = 'New Comment from Nutrifit';
